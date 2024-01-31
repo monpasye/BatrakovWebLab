@@ -1,0 +1,27 @@
+.main-container {
+    overflow: hidden;
+  }
+
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+
+  .main-container {
+    position: relative;
+    width: 183px;
+    height: 41px;
+    margin: 0 auto;
+  }
+  .pic {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 0;
+    left: 0;
+    background: url(assets/images/logo.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    border-radius: 50%;
+  }

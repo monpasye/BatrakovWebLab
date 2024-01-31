@@ -1,10 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import Logo from './logo.tsx'
+import TopNavigation from './topnavigation.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <div style={{float: 'left', marginLeft: '200px', marginTop: '50px'}}><Logo /></div>
+    <TopNavigation/>
   </React.StrictMode>,
 )
