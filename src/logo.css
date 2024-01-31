@@ -1,0 +1,16 @@
+.main-container {
+    overflow: hidden;
+  }
+
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+
+  .main-container {
+    position: relative;
+    width: 183px;
+    height: 41px;
+    background: url(assets/images/logo.svg);
+    margin: 0 auto;
+  }

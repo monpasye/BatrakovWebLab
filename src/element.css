@@ -1,0 +1,16 @@
+.element {
+    overflow-x: visible;
+  }
+.element * {
+    box-sizing: border-box;
+}
+.element {
+    position: relative;
+    width: 131.581px;
+    height: 115px;
+    background: url(assets/images/element.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+  }
+
+
